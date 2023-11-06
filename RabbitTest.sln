@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitTest", "RabbitTest\RabbitTest.csproj", "{687FEFE4-EE5D-4A30-80F1-3A74FEB7FC95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{995C811F-9222-48CF-AE4B-D349DAB7CA5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{509BAD32-F446-48B6-8426-1B5441A0C6BB}"
+	ProjectSection(SolutionItems) = preProject
+		Docker.txt = Docker.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{687FEFE4-EE5D-4A30-80F1-3A74FEB7FC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687FEFE4-EE5D-4A30-80F1-3A74FEB7FC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687FEFE4-EE5D-4A30-80F1-3A74FEB7FC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687FEFE4-EE5D-4A30-80F1-3A74FEB7FC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995C811F-9222-48CF-AE4B-D349DAB7CA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995C811F-9222-48CF-AE4B-D349DAB7CA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995C811F-9222-48CF-AE4B-D349DAB7CA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995C811F-9222-48CF-AE4B-D349DAB7CA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FB528D8-8CC6-4844-BFDD-A3A34F37AFDB}
+	EndGlobalSection
+EndGlobal
